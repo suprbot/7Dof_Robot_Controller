@@ -1,0 +1,9 @@
+#include "ikine.h"
+#include <math.h>
+
+void ikine(const double *endPos, double *jointPos)
+{
+    jointPos[0]=(endPos[1]+endPos[2])/2.0;
+    jointPos[1]=(endPos[0]-endPos[1])/2.0;
+    jointPos[2]=(endPos[0]-endPos[2])/2.0;
+}

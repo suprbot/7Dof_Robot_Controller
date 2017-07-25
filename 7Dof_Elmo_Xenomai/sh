@@ -1,0 +1,5 @@
+cd ./build
+rm -rf *
+cmake ..
+make 
+sudo ./bin/ecat_t1

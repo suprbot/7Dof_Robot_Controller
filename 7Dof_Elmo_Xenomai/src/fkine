@@ -1,0 +1,9 @@
+#include "fkine.h"
+#include <math.h>
+
+void fkine(const double* jointPos,double* endPos)
+{
+    endPos[0]=jointPos[0]+jointPos[1]+jointPos[2];
+    endPos[1]=jointPos[0]-jointPos[1]+jointPos[2];
+    endPos[2]=jointPos[0]+jointPos[1]-jointPos[2];
+}

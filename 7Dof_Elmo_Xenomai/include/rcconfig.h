@@ -1,0 +1,11 @@
+#ifndef __RC_CONFIG__
+#define __RC_CONFIG__
+
+#define CYC_TIME 10
+
+#define ELMO_GOLD 0x0000009A, 0x00030924
+//#define ENC 262144 //2^18
+
+#define PI 3.1415926535897932384626433832795
+
+#endif
